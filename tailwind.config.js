@@ -6,7 +6,16 @@
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                poppins: ["Poppins", "sans-serif"],
+            },
+            colors: {
+                primary: "#121212",
+                secondary: "#20212A",
+                "blue-color": "#306AFC",
+            },
+        },
     },
     plugins: [],
 };
