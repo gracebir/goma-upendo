@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.goma{
+    background-image: url('./assets/goma.png');
+}
