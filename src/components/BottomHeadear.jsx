@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 
 const BottomHeadear = ({ scrollValue }) => {
+    console.log("scoll");
     return (
         <div
             className={`bg-black bg-opacity-50 duration-300 transition-all px-6 z-10 lg:px-0 ${
@@ -14,15 +15,16 @@ const BottomHeadear = ({ scrollValue }) => {
                     <h1 className='lg:text-3xl text-xl'>
                         Ngufu yetu niku saidiyana
                     </h1>
-                    <p
-                        className={`text-gray-300 duration-300 transition-all ${
-                            scrollValue > 80 ? "hidden" : "block"
-                        }`}
-                    >
-                        Nous les jeunes volontaires de Goma,nous lançons un
-                        appel de fonds pour aider les déplacés de kANYARUCHINYA
-                        à l'Est de la République démocratique du Congo
-                    </p>
+                    {scrollValue < 81 && (
+                        <p
+                            className={`text-gray-300 duration-300 transition-all`}
+                        >
+                            Nous les jeunes volontaires de Goma,nous lançons un
+                            appel de fonds pour aider les déplacés de
+                            kANYARUCHINYA à l'Est de la République démocratique
+                            du Congo
+                        </p>
+                    )}
                 </div>
             </div>
         </div>
