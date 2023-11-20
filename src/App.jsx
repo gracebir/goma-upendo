@@ -17,7 +17,7 @@ function App() {
     return (
         <div className='font-poppins text-white bg-[#121212] min-h-screen'>
             <Header scrollValue={scrollValue} />
-            <BottomHeadear scrollValue={scrollValue} />
+            <BottomHeadear />
             <div className='max-w-7xl mx-auto mt-8'>
                 <GaleryImage />
             </div>
