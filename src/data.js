@@ -21,16 +21,16 @@ export const gallery = [
         isPic: true,
         img: pict2,
     },
-    {
-        id: 3,
-        isPic: true,
-        img: pict3,
-    },
-    {
-        id: 4,
-        isPic: true,
-        img: pict4,
-    },
+    // {
+    //     id: 3,
+    //     isPic: true,
+    //     img: pict3,
+    // },
+    // {
+    //     id: 4,
+    //     isPic: true,
+    //     img: pict4,
+    // },
     {
         id: 6,
         isPic: true,
@@ -40,11 +40,6 @@ export const gallery = [
         id: 7,
         isPic: false,
         img: video1,
-    },
-    {
-        id: 8,
-        isPic: false,
-        img: video2,
     },
     {
         id: 9,

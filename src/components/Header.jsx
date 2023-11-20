@@ -8,7 +8,7 @@ const Header = () => {
         <header className='w-full bg-black bg-opacity-50 h-[100px] flex items-center sticky top-0'>
             <div className='max-w-7xl mx-auto flex items-center justify-between lg:px-0 px-6 flex-1'>
                 <h1 className='text-gray-100 font-bold text-3xl'>
-                    Upendo Goma
+                    Goma Upendo
                 </h1>
                 <div className='hidden lg:flex text-white items-center gap-4'>
                     <FaPhone size={25} />
