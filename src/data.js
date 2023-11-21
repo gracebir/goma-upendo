@@ -2,9 +2,6 @@
 
 import pict1 from "./assets/pict1.jpeg";
 import pict2 from "./assets/pict2.jpeg";
-import pict3 from "./assets/pict3.jpeg";
-import pict4 from "./assets/pict4.jpeg";
-import pict5 from "./assets/pict5.jpeg";
 import pict6 from "./assets/pict6.jpeg";
 import video1 from "./assets/video1.mp4";
 import video4 from "./assets/video4.mp4";
