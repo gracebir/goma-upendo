@@ -24,11 +24,6 @@ export const gallery = [
         img: pict2,
     },
     {
-        id: 6,
-        isPic: true,
-        img: pict6,
-    },
-    {
         id: 7,
         isPic: false,
         img: video1,
